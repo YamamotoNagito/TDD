@@ -8,8 +8,4 @@ class Franc extends Money{
         // amount *= multiplier;
         return new Franc(amount * multiplier);
     }
-    
-    static Money franc(int amount){
-        return new Franc(amount);
-    }
 }
