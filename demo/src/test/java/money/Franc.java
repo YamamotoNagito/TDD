@@ -9,7 +9,7 @@ class Franc extends Money{
         return "CHF";
     }
 
-    Money times(int multiplier){
-        return  Money.franc(amount * multiplier);
-    }
+    // Money times(int multiplier){
+    //     return  new Money(amount * multiplier, currency);
+    // }
 }
